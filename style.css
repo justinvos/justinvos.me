@@ -66,6 +66,10 @@ ul {
   padding: 0;
 }
 
+ul.listing {
+  margin-bottom: 25px;
+}
+
 li {
   margin: 15px 0;
 }
@@ -99,7 +103,7 @@ a.inline:hover {
     width: 100%;
   }
 
-  ul#project_list li {
+  ul.listing li {
     margin: 1em 0;
   }
 
