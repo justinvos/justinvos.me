@@ -51,6 +51,10 @@ a:hover li i {
   color: #F48024;
 }
 
+#twitter:hover li i {
+  color: #55ACEE;
+}
+
 #linkedin:hover li i {
   color: #007BB6;
 }
