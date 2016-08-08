@@ -2,10 +2,12 @@
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is the portolfio website of Justin Vos, listing my projects, experience and links to my various internet profiles." />
     <title>Justin Vos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='style.css'>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -30,16 +32,32 @@
         </ul>
       </header>
       <h2>Projects</h2>
-      <ul class='listing'>
-        <li><strong><a class='inline' href='https://github.com/justinvos/ernest'>Ernest</a></strong> is a student-driven question system built to be fun.</li>
-        <li><strong><a class='inline' href='http://www.soldout.tk/'>SolSearch</a></strong> is my team's entry to GovHack 2016. It uses weather data from NIWA to calculate potential solar power output.</li>
-        <li><strong><a class='inline' href='http://showofhands.online'>Show of Hands</a></strong> is an online voting website, and also an experiment using Chart.js.</li>
-      </ul>
-      <h2>Education</h2>
-      <ul class='listing'>
-        <li><strong>BSc in Computer Science</strong> at the University of Auckland (2017)</li>
-        <li><strong>OCA Java Programmer</strong> (2014)</li>
-      </ul>
+      <div class='projects'>
+        <div class='project'>
+          <!--<div class='image'><img src='ernest.png'></div>-->
+          <div class='image'><img src='ernest.png'></div>
+          <div class='content'>
+            <p class='title'><a class='inline' href='https://github.com/justinvos/ernest'>Ernest</a></p>
+            <p class='description'>Ernest is a student-driven question system built to be fun.</p>
+          </div>
+        </div>
+
+        <div class='project'>
+          <div class='image'><img src='solsearch.png'></div>
+          <div class='content'>
+            <p class='title'><a class='inline' href='http://www.soldout.tk'>SolSearch</a></p>
+            <p class='description'>SolSearch is my team's entry to GovHack 2016. It uses weather data from NIWA to calculate potential solar power output.</p>
+          </div>
+        </div>
+
+        <div class='project'>
+          <div class='image'><img src='showofhands.png'></div>
+          <div class='content'>
+            <p class='title'><a class='inline' href='http://showofhands.online/'>Show of Hands</a></p>
+            <p class='description'>Show of Hands is an online voting website, and also an experiment using Chart.js.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

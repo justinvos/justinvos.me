@@ -7,7 +7,8 @@ html, body {
 
 #body_wrap {
   margin: auto;
-  width: 700px;
+  padding: 0;
+  width: 900px;
 }
 
 a {
@@ -79,21 +80,107 @@ li {
 }
 
 a.inline {
-  border-bottom: 1px solid #AAA;
   color: inherit;
   text-decoration: none;
 }
 
 a.inline:hover {
-  border-bottom: 1px solid #505050;
+  border-bottom: 2px solid #505050;
   color: #333;
 }
 
-@media (max-width: 740px) {
+.project {
+  border-bottom: #E0E0E0 solid 1px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+}
+
+.project:first-child {
+  padding-top: 0;
+}
+
+.project .image {
+  border: #E0E0E0 solid 1px;
+  display: inline-block;
+  height: auto;
+  width: 350px;
+}
+
+#ernest {
+  background-image: url("ernest.png");
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  z-index: 1;
+}
+
+.image:hover {
+  background-color: rgba(1,1,1,0.5);
+  z-index: -1;
+}
+
+.project img {
+  width: inherit;
+}
+
+
+
+.project .content {
+  box-sizing: border-box;
+  padding: 0 15px;
+  width: 550px;
+}
+
+.project .title {
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+.project .description {
+  font-family: "Open Sans";
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 920px) {
   #body_wrap {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0 1.3em;
+    margin: auto;
+    padding: 0;
+    width: 500px;
+  }
+
+  .project {
+    flex-direction: column;
+    margin: auto;
+    width: inherit;
+  }
+
+  .project .image, .project .content {
+    width: 100%;
+  }
+
+  .project .content {
+    padding: 5px 0;
+  }
+}
+
+
+@media (max-width: 520px) {
+  #body_wrap {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  #body_wrap {
+    padding: 0 15px;
     width: 100%;
   }
 }
