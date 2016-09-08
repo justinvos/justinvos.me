@@ -1,32 +1,15 @@
-html, body {
-  color: #505050;
-  font-family: "Open Sans";
-  margin: 0;
-  padding: 0;
-}
-
 #body_wrap {
   margin: auto;
   padding: 0;
   width: 900px;
 }
 
-a {
-  color: inherit;
-}
-
-h1 {
-  font-family: "Permanent Marker";
-  font-size: 3.3em;
-  text-align: center;
-}
-
-ul#icon_list {
+#icon_list {
   margin-bottom: 1.5em;
   text-align: center;
 }
 
-ul#icon_list li {
+#icon_list li {
   display: inline-block;
   margin: 0 0.3em;
 }
@@ -149,39 +132,28 @@ a.inline:hover {
   padding: 0;
 }
 
-@media (max-width: 920px) {
-  #body_wrap {
-    box-sizing: border-box;
-    margin: auto;
-    padding: 0;
-    width: 500px;
-  }
-
-  .project {
-    flex-direction: column;
-    margin: auto;
-    width: inherit;
-  }
-
-  .project .image, .project .content {
-    width: 100%;
-  }
-
-  .project .content {
-    padding: 5px 0;
-  }
+.footer {
+  background: #242729;
+  padding: 50px 0;
 }
 
+.footer__wrap {
+  margin: auto;
 
-@media (max-width: 520px) {
-  #body_wrap {
-    width: 350px;
-  }
+  width: 900px;
 }
 
-@media (max-width: 400px) {
-  #body_wrap {
-    padding: 0 15px;
-    width: 100%;
-  }
+.footer__title {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer__line {
+  color: #5e666e;
+  font-size: 16px;
+}
+
+.footer__icon {
+  padding-right: 10px;
 }

@@ -1,0 +1,36 @@
+@media (max-width: 920px) {
+  #body_wrap, .footer__wrap {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    width: 500px;
+  }
+
+  .project {
+    flex-direction: column;
+    margin: auto;
+    width: inherit;
+  }
+
+  .project .image, .project .content {
+    width: 100%;
+  }
+
+  .project .content {
+    padding: 5px 0;
+  }
+}
+
+
+@media (max-width: 520px) {
+  #body_wrap, .footer__wrap {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  #body_wrap, .footer__wrap {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
