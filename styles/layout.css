@@ -4,71 +4,47 @@
   width: 900px;
 }
 
-#icon_list {
+.header {
+  margin: 40px 0;
+}
+
+.header__title {
+  font-family: "Permanent Marker";
+  font-size: 54px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#icons {
   margin-bottom: 1.5em;
   text-align: center;
 }
 
-#icon_list li {
+#icons li {
   display: inline-block;
-  margin: 0 0.3em;
+  margin: 0;
 }
 
 .icon {
-  font-size: 1.6em;
+  font-size: 32px;
+  margin: 0 5px;
 }
 
-a:hover li i {
+.icon:hover {
   color: #333;
   cursor: pointer;
 }
 
-
-#github:hover li i {
-  color: #F34F29;
+.subtitle {
+  margin: 20px 0;
 }
 
-#codepen:hover li i {
-  color: #9F52D5;
-}
-
-#stackexchange:hover li i {
-  color: #F48024;
-}
-
-#twitter:hover li i {
-  color: #55ACEE;
-}
-
-#linkedin:hover li i {
-  color: #007BB6;
-}
-
-#email:hover li i {
-  color: #DC4638
-}
-
-ul {
-  font-size: 1.2em;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.listing {
-  margin-bottom: 25px;
-}
-
-li {
-  margin: 15px 0;
-}
-
-a.inline {
+.inline {
   color: inherit;
   text-decoration: none;
 }
 
-a.inline:hover {
+.inline:hover {
   border-bottom: 2px solid #505050;
   color: #333;
 }
@@ -84,19 +60,12 @@ a.inline:hover {
   padding-top: 0;
 }
 
-.project .image {
+.project__image {
   border: #E0E0E0 solid 1px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   height: auto;
   width: 350px;
-}
-
-#ernest {
-  background-image: url("ernest.png");
-  background-size: cover;
-  width: 100%;
-  height: 220px;
-  z-index: 1;
 }
 
 .image:hover {
@@ -105,18 +74,17 @@ a.inline:hover {
 }
 
 .project img {
+  height: auto;
   width: inherit;
 }
 
-
-
-.project .content {
+.project__content {
   box-sizing: border-box;
   padding: 0 15px;
   width: 550px;
 }
 
-.project .title {
+.project__title {
   font-family: "Open Sans";
   font-size: 28px;
   font-weight: 700;
@@ -125,7 +93,7 @@ a.inline:hover {
 
 }
 
-.project .description {
+.project__description {
   font-family: "Open Sans";
   font-size: 22px;
   margin: 0;

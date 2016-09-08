@@ -1,3 +1,27 @@
+#github:hover {
+  color: #F34F29;
+}
+
+#codepen:hover{
+  color: #9F52D5;
+}
+
+#stackexchange:hover{
+  color: #F48024;
+}
+
+#twitter:hover{
+  color: #55ACEE;
+}
+
+#linkedin:hover{
+  color: #007BB6;
+}
+
+#email:hover{
+  color: #DC4638
+}
+
 @media (max-width: 920px) {
   #body_wrap, .footer__wrap {
     box-sizing: border-box;

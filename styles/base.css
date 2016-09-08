@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 html, body {
   color: #505050;
   font-family: "Open Sans";
@@ -9,13 +14,18 @@ a {
   color: inherit;
 }
 
-h1 {
-  font-family: "Permanent Marker";
-  font-size: 3.3em;
-  text-align: center;
-}
-
 p {
   margin: 0;
   padding: 0;
+}
+
+ul {
+  font-size: 1.2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
 }
