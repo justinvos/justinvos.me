@@ -1,3 +1,7 @@
+/*
+  SPECIFIC STYLING
+*/
+
 #github:hover {
   color: #F34F29;
 }
@@ -22,6 +26,10 @@
   color: #DC4638
 }
 
+/*
+  MEDIA QUERIES
+*/
+
 @media (max-width: 920px) {
   #body_wrap, .footer__wrap {
     box-sizing: border-box;
@@ -36,11 +44,11 @@
     width: inherit;
   }
 
-  .project .image, .project .content {
+  .project__image, .project__content {
     width: 100%;
   }
 
-  .project .content {
+  .project__content {
     padding: 5px 0;
   }
 }

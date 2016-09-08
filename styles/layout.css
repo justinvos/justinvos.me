@@ -1,8 +1,34 @@
+/*
+  GENERIC STYLING
+*/
+
+.inline {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inline:hover {
+  border-bottom: 2px solid #505050;
+  color: #333;
+}
+
+.tag {
+  color: #888;
+}
+
+/*
+  BODY STYLING
+*/
+
 #body_wrap {
   margin: auto;
   padding: 0;
   width: 900px;
 }
+
+/*
+  HEADER STYLING
+*/
 
 .header {
   margin: 40px 0;
@@ -15,15 +41,11 @@
   text-align: center;
 }
 
-#icons {
-  margin-bottom: 1.5em;
+.icons {
+  margin-bottom: 24px;
   text-align: center;
 }
 
-#icons li {
-  display: inline-block;
-  margin: 0;
-}
 
 .icon {
   font-size: 32px;
@@ -39,19 +61,9 @@
   margin: 20px 0;
 }
 
-.inline {
-  color: inherit;
-  text-decoration: none;
-}
-
-.inline:hover {
-  border-bottom: 2px solid #505050;
-  color: #333;
-}
-
-.tag {
-  color: #888;
-}
+/*
+  PROJECT STYLING
+*/
 
 .project {
   border-bottom: #E0E0E0 solid 1px;
@@ -70,16 +82,6 @@
   flex-direction: row;
   height: auto;
   width: 350px;
-}
-
-.image:hover {
-  background-color: rgba(1,1,1,0.5);
-  z-index: -1;
-}
-
-.project img {
-  height: auto;
-  width: inherit;
 }
 
 .project__content {
@@ -115,6 +117,10 @@
   margin-right: 5px;
 }
 
+/*
+  FOOTER STYLING
+*/
+
 .footer {
   background: #242729;
   padding: 50px 0;
@@ -135,6 +141,11 @@
 .footer__line {
   color: #5e666e;
   font-size: 16px;
+}
+
+
+.footer__link:hover {
+  color: #999;
 }
 
 .footer__icon {
