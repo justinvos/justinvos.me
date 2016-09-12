@@ -68,7 +68,11 @@
   }
 
   .project__title {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .project__link {
+    font-size: 18px;
   }
 }
 
