@@ -80,7 +80,11 @@
   border: #E0E0E0 solid 1px;
   display: flex;
   flex-direction: row;
-  height: auto;
+
+}
+
+.project__image > img {
+  height: 217.5px;
   width: 350px;
 }
 
